@@ -15,14 +15,41 @@ task :tags do
 layout: default
 title: "#{tag.capitalize}"
 ---
-    <h1 id="#{tag}">Postings tagged "#{tag}"</h1>
+  <div class="featured-interviews">
 HTML
-    html << '<ul class="posts">'
     posts.each do |post|
       post_data = post.to_liquid
-      html << "<li><a href=\"#{post.url}\">#{post_data['title']}</a></li>"
+      html << <<-HTML
+      <div class="featured-interview">
+      <a href="#{post.url}">
+        <img src="/images/featured#{ post.url }.png">
+      </a>
+      <a href="#{ post.url }">
+        <div class="title">
+          #{post_data['title']}
+        </div>
+      </a>
+      <div class="subtitle">
+        #{post_data['subtitle']}
+      </div>
+      <div class="posted-date">
+        Posted on #{ post.date.strftime("%Y-%m-%d") } in
+      </div>
+      <div class="tags">
+      HTML
+      post.tags.each do |tag|
+        html << <<-HTML
+        <a href="/tags/#{ tag }">
+          <div class="tag">
+            #{ tag }
+          </div>
+        </a>
+        HTML
+      end
+      html << "</div" # /tags
+      html << "</div>" # /featured-interview
     end
-    html << '</ul>'
+    html << '</div>' # /featured-interviews
     
     File.open("tags/#{tag}.html", 'w+') do |file|
       file.puts html
