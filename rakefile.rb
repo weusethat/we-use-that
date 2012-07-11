@@ -52,7 +52,7 @@ title: "#{tag.capitalize}"
 ---
 <div class="featured-interviews">
 HTML
-    posts.each do |post|
+    posts.reverse.each do |post|
       post_data = post.to_liquid
       html << <<-HTML
   <div class="featured-interview">
