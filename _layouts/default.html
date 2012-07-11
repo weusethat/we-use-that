@@ -1,13 +1,13 @@
 <html>
   <head>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-    <title>We Use That | First</title>
+    <title>We Use That | {{ page.title }}</title>
   </head>
 
 
   <body>
     <div class="header">
-      <h1>We Use That  / First</h1>
+      <h1>We Use That {% if page.title %} / {% endif %}{{ page.title }}</h1>
       <p id="tagline">What startups use to get stuff done</p>
     </div>
     <div class="clear"></div>
@@ -22,7 +22,7 @@
     </div>
     <div class="clear"></div>
     <div class="content">
-      <p>First, yo</p>
+      {{ content }}
     </div>
   </body>
 </html>

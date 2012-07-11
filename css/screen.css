@@ -1,0 +1,54 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body { 
+  font-family: "helvetica neue", helvetica, sans-serif; 
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+h1 {
+  font-size: 240%;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+}
+
+.nav {
+  border-bottom: 1px solid gray;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 20px 0px;
+}
+
+.nav ul li {
+  float: left;
+  padding-right: 20px;
+}
+
+.posted-date {
+  float: left;
+}
+
+.tags { 
+  float: left;
+}
+
+.tag {
+  background-color: gray;
+  border: 1px solid black;
+  float: left;
+}

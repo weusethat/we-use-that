@@ -1,9 +1,10 @@
 ---
 layout: default
+title: Foo
 ---
 
 <div class="featured-interviews">
-  {% for post in site.posts %}
+  {% for post in site.tags.foo %}
     <div class="featured-interview">
       <a href="{{ post.url }}">
         <img src="/images/featured{{ post.url }}.png">
@@ -18,16 +19,14 @@ layout: default
       </div>
       <div class="posted-date">
         Posted on {{ post.date | date_to_string }} in
-      </div>
-      <div class="tags">
-        {% for tag in post.tags %}
-          <a href="/tags/{{ tag }}">
+        <div class="tags">
+          {% for tag in post.tags %}
             <div class="tag">
               {{ tag }}
             </div>
-          </a>
-        {% endfor %}
-      </div>
+          {% endfor %}
+        </div>
+      </div>      
     </div>
   {% endfor %}
 </div>
