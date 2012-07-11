@@ -6,6 +6,7 @@ body {
   margin: 0 auto;
   padding: 30px 0px;
   color: #777;
+  line-height: 22px;  
 }
 
 h1 {
@@ -45,12 +46,26 @@ a:hover {
   font-size: 140%;
 }
 
-.interviews .tags h2 {
+.interview {
+  padding: 3% 1%;
+}
+
+.title {
+  font-size: 150%;
+  font-weight: 500;
+}
+
+.interviews h2 {
   margin-bottom: 10px;
+  font-size: 140%;
+}
+
+.interviews .tags h2 {
+  margin-bottom: 15px;
 }
 
 .interview-index li {
-  padding: 10px 0px;
+  padding: 5px 0px;
 }
 
 .featured-interview, .interviews > div {
@@ -59,12 +74,12 @@ a:hover {
   padding: 2% 2% 2% 0;
 }
 
-.featured-interview {
-  line-height: 22px;
-}
-
 .featured-interview img {
   width: 100%;
+}
+
+.interview img {
+  float: right;
 }
 
 .posted-date {

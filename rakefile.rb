@@ -18,8 +18,7 @@ title: Interviews
     <h2>All interviews</h2>
     <ol>
   HTML
-  site.posts.sort.each do |post|
-    puts post
+  site.posts.sort.reverse.each do |post|
     post_data = post.to_liquid
     interview_content << <<-HTML
       <li>

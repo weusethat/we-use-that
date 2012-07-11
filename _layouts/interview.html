@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="interview">
+  <img src="/images/interview{{ page.url }}.png">
+  <div class="title">
+    {{ page.title }}
+  </div>
+  <div class="subtitle">
+    {{ page.subtitle }}
+  </div>
+  <div class="posted-date">
+    Posted on {{ page.date | date_to_string }} in
+  </div>
+  <div class="tags">
+    {% for tag in page.tags %}
+      <a href="/tags/{{ tag }}">
+        <div class="tag">
+          {{ tag }}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
+</div>

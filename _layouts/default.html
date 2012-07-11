@@ -1,7 +1,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-    <title>We Use That | {{ page.title }}</title>
+    <title>We Use That {% if page.title %} | {% endif %}{{ page.title }}</title>
   </head>
 
 
