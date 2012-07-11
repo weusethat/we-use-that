@@ -2,7 +2,38 @@
 layout: default
 title: Interviews
 ---
-
-{% for tag in site.tags %}
-  {{ tag }}
-{% endfor %}
+<div class="interviews">
+  <div class="interview-index">
+    <h2>All interviews</h2>
+    <ol>
+      <li>
+        <a href="/first">
+          First
+        </a>
+      </li>
+      <li>
+        <a href="/second">
+          Second
+        </a>
+      </li>
+    </ol>
+  </div>
+  <div class="tags">
+    <h2>All tags:</h2>
+    <a href="/tags/bar">
+      <div class="tag">
+        bar
+      </div>
+    </a>
+    <a href="/tags/baz">
+      <div class="tag">
+        baz
+      </div>
+    </a>
+    <a href="/tags/foo">
+      <div class="tag">
+        foo
+      </div>
+    </a>
+  </div>
+</div>
