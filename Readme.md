@@ -6,10 +6,10 @@
 
 1. Create a new post in the `_posts` folder that answers the four questions:
 
-  - Who are you, and what do you do?
-  - What is your technology stack?
-  - What software do you use to run your business better?
-  - What business software do you most wish existed?
+    - Who are you, and what do you do?
+    - What is your technology stack?
+    - What software do you use to run your business better?
+    - What business software do you most wish existed?
 
   Take a look at the other posts for guidance on length etc.
 
