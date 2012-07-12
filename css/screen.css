@@ -59,6 +59,10 @@ a:hover {
   font-size: 140%;
 }
 
+.content img {
+  border: 1px solid #000;
+}
+
 .interview {
   padding: 3% 1%;
 }

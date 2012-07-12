@@ -15,7 +15,7 @@ title: Interviews
 ---
 <div class="interviews">
   <div class="interview-index">
-    <h2>All interviews</h2>
+    <h2>All interviews:</h2>
     <ol>
   HTML
   site.posts.sort.reverse.each do |post|
