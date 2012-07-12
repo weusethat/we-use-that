@@ -37,6 +37,10 @@ a:hover {
   clear: right;
 }
 
+.header {
+  margin-left: 1%;
+}
+
 .nav {
   border-bottom: 1px solid #777;
   padding-bottom: 5px;
@@ -44,6 +48,7 @@ a:hover {
 
 .nav ul {
   list-style: none;
+  margin-left: 1%;
   padding: 20px 0px;
 }
 
@@ -59,21 +64,17 @@ a:hover {
 }
 
 .interview p {
-  padding: 20px 0px;
+  padding: 0 0 1em 0;
 }
 
-.title, .interview h2 {
+.title, h2 {
   font-size: 150%;
   font-weight: 500;
-}
-
-.subtitle {
-  padding: 1% 0;
+  line-height: 2.5em;
 }
 
 .interviews h2 {
   margin-bottom: 10px;
-  font-size: 140%;
 }
 
 .interviews .tags h2 {
@@ -87,11 +88,15 @@ a:hover {
 .featured-interview, .interviews > div {
   width: 48%;
   float: left;
-  padding: 2% 2% 2% 0;
+  padding: 2% 1%;
 }
 
 .featured-interview img {
   width: 100%;
+}
+
+.featured-interview .subtitle {
+  padding-bottom: 1em;
 }
 
 .interview {
@@ -100,14 +105,11 @@ a:hover {
 
 .interview img {
   float: right;
+  padding-top: 5px;
 }
 
 .interview .tags .tag {
   margin: 1px 5px;
-}
-
-.title {
-  padding: 2% 0px;
 }
 
 .posted-date {
@@ -131,4 +133,8 @@ a:hover {
 
 .tag:hover {
   background-color: #333;
+}
+
+.about {
+  margin-left: 1%;
 }
