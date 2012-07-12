@@ -8,10 +8,10 @@
 
 It should answer the four questions:
 
-  - Who are you, and what do you do?
-  - What is your technology stack?
-  - What software do you use to run your business better?
-  - What business software do you most wish existed?
+  - __Who are you, and what do you do?__ [One sentence on you the person, a few on the company and how awesomely you're doing and a last sentence if you're hiring]
+  - __What is your technology stack?__ [Hardware if you use it, OS/VM, databases, server, vcs, language, framework, front end etc]
+  - __What software do you use to run your business better?__  [Domain regstrar, hosting provider, DNS service, CDN, email, docs, chat, github, olark, billing, HR, finances, every piece of business software you use! Feel free to add commentary and focus on the ones you like]
+  - __What business software do you most wish existed?__
 
 Take a look at the other posts for guidance on length etc.
 
