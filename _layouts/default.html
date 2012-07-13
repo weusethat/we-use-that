@@ -3,9 +3,17 @@
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
     <meta name="google-site-verification" content="IqhG6Ad6qG2NBCvAqW0Vi3jsBPwsEs0lIDvFTtkS4r8" />
     <title>We Use That {% if page.title %} | {% endif %}{{ page.title }}</title>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33344741-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </head>
-
-
   <body>
     <div class="header">
       <h1>We Use That {% if page.title %} / {% endif %}{{ page.title }}</h1>
