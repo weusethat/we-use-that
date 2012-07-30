@@ -15,7 +15,7 @@ Our toolset, at a low level, was [Python](http://www.python.org/) for our core a
 
 ##What software do you use to run your business?
 
-We built Cloudkick mainly on [Slicehost](http://www.slicehost.com/) and [Rackspace](http://www.rackspace.com/) although we used Amazon for some stuff. [Zerigo](http://www.zerigo.com/) provides API DNS management, we used that for quite a bit of stuff. We used it with Fabric so that we could provision a server and a DNS automatically. Moving up the stack a little bit we used [Mailchimp](http://mailchimp.com/) for sending emails, [Salesforce](http://mailchimp.com/) for our CRM, a startup called [Leftronic](https://www.leftronic.com/) for our dashboards, [Olark](http://www.olark.com/) for customer chat. [PagerDuty](http://www.pagerduty.com/) for our on call tracking.
+We built Cloudkick mainly on [Slicehost](http://www.slicehost.com/) and [Rackspace](http://www.rackspace.com/) although we used Amazon a bit as well. [Zerigo](http://www.zerigo.com/) provides API DNS management, we used it with Fabric so that we could provision a server and a DNS automatically. Moving up the stack a little bit we used [Mailchimp](http://mailchimp.com/) for sending emails, [Salesforce](http://mailchimp.com/) for our CRM, a startup called [Leftronic](https://www.leftronic.com/) for our dashboards, [Olark](http://www.olark.com/) for customer chat. [PagerDuty](http://www.pagerduty.com/) for our on call tracking.
 
 Special shout out to [Tarsnap](http://www.tarsnap.com/), which is awesome, probably the coolest thing we used. They solve a pretty difficult technical problem and do it correctly.
 
