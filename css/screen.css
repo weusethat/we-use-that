@@ -120,6 +120,8 @@ a:hover {
 .interview img {
   float: right;
   margin: 5px 0px 10px 20px;
+  width: 44.65%;
+  padding: 4%;
 }
 
 .interview .tags .tag {
