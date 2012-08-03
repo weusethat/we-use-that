@@ -18,7 +18,7 @@ Take a look at the other posts for guidance on length etc.
 The file name format is `YYYY-MM-DD-name`, where `name` is replaced with the startup's name, all lowercase. Spaces etc. should be replaced with dashes.
 
 #### Add an image. 
-Images should be 460x345px, .png format, and go in `/images/featured` with the same `name` as above.
+Images should be 420x315px, .png format, and go in `/images/featured` with the same `name` as above.
 
 ### Credits
 
