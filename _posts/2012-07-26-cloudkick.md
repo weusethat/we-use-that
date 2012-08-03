@@ -7,7 +7,7 @@ tags: yc saas monitoring
 
 ##Who are you, and what do you do?
 
-I am [Alex Polvi](https://github.com/polvi) and I do all sorts of things. I founded a company called [Cloudkick](https://www.cloudkick.com/) [Acquired by Rackspace]. We built tools to help companies manage their server infrastructure in places like Rackspace Cloud and other cloud providers. Our tools were for monitoring and management, the monitoring aspect was the most popular. After the acquisition, I stayed a little over a year and then left in May 2012 to figure out what's next.
+I am [Alex Polvi](https://github.com/polvi) and I do all sorts of things. I founded a company called [Cloudkick](https://www.cloudkick.com/) \[Acquired by Rackspace\]. We built tools to help companies manage their server infrastructure in places like Rackspace Cloud and other cloud providers. Our tools were for monitoring and management, the monitoring aspect was the most popular. After the acquisition, I stayed a little over a year and then left in May 2012 to figure out what's next.
 
 ##What is your technology stack?
 

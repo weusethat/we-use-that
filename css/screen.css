@@ -105,7 +105,8 @@ a:hover {
 }
 
 .featured-interview img {
-  width: 100%;
+  width: 91.2%;
+  padding: 4%;
 }
 
 .featured-interview .subtitle {
