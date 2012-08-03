@@ -156,3 +156,7 @@ a:hover {
 .about h2 {
   padding: 1em 0;
 }
+
+.featured-interview .posted-date {
+  margin: 8px 0px;
+}
