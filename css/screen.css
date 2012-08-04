@@ -60,7 +60,7 @@ a:hover {
 }
 
 .content img {
-  border: 1px solid #000;
+  border: 1px solid #E6E6E6;
 }
 
 .content a {
@@ -120,6 +120,8 @@ a:hover {
 .interview img {
   float: right;
   margin: 5px 0px 10px 20px;
+  width: 44.65%;
+  padding: 4%;
 }
 
 .interview .tags .tag {
@@ -141,7 +143,7 @@ a:hover {
   float: left;
   padding: 2px 7px;
   font-weight: 600;
-  margin: -3px 5px;
+  margin: 5px;
   line-height: 22px;
 }
 
@@ -155,4 +157,8 @@ a:hover {
 
 .about h2 {
   padding: 1em 0;
+}
+
+.featured-interview .posted-date {
+  margin: 8px 0px;
 }
