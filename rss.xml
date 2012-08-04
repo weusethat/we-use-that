@@ -1,0 +1,19 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>We Use That</title>
+    <description>What startups use to get stuff done.</description>
+    <link>http://weusethat.com</link>
+    {% for post in site.posts %}
+    <item>
+      <title>{{ post.title }}</title>
+      <description>{{ post.content | xml_escape }}</description>
+      <published>{{ post.date }}</published>
+      <link>http://weusethat.com{{ post.url }}</link>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
