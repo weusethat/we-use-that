@@ -27,13 +27,13 @@ For interfaces and data exploration, we usually write webapps in [Django](https:
 
 We [Boilerpipe](http://code.google.com/p/boilerpipe/) a lot for extracting text from webpages.
 
-We deploy using [Fabric](http://docs.fabfile.org/). But we're exploring [Chef](https://github.com/opscode/chef) and [Puppet](https://github.com/puppetlabs/puppet/). Whichever has a better community, that's the one we will choose, since the feature sets are equivalent.
+We deploy using [Fabric](http://docs.fabfile.org/). But we're exploring [Chef](https://github.com/opscode/chef) and [Puppet](https://github.com/puppetlabs/puppet/). We will choose whichever has a better community, since the feature sets are equivalent.
 
 We use [Mercurial](http://mercurial.selenic.com/) exclusively. Git is too arcane, and the functionality is equivalent. We interact with git repos using the [Hg-Git](http://hg-git.github.com/) plugin.
 
 We use [Ubuntu](http://www.ubuntu.com/) for run-of-the-mill systems, like EC2 instances which we tear down quickly. We use [Gentoo](http://www.gentoo.org/) for long-running experiment boxes (dedicated servers), because it's much easier to get state-of-the-art packages and control compile options.
 
-Our Q+A forum is powered by [OSQA](http://www.osqa.net), which is built on Django. OSQA is no longer actively maintained, and we are considering migrating the forum to [AskBot](http://www.askbot.com). Our company website uses [WordPress](http://wordpress.org/).
+Our Q+A forum is powered by [OSQA](http://www.osqa.net), which is built on Django. OSQA is no longer actively maintained, and we are considering migrating the forum to [AskBot](http://www.askbot.com). Our company website runs on [WordPress.org](http://wordpress.org/).
 
 
 ##What software do you use to run your business?
@@ -44,7 +44,7 @@ For crowd computation, we control [Mechanical Turk](http://www.mturk.com) throug
 
 We host public code on [GitHub](https://github.com/). We used to host private repos on GitHub, but now we host them on a private server (I had forgotten that we do not need our paid Github plan anymore, and just downgraded to the free GitHub plan). When collaborating with outsiders, we prefer to use [BitBucket](https://bitbucket.org/).
 
-We use [Webfaction](http://webfaction.com) for webhosting. Their support is great. Our main WordPress site is driven by a customized [ThemePress](http://www.themepress.com/) theme. We throw our website behind [CloudFlare](http://cloudflare.com).
+We use [Webfaction](http://webfaction.com) for webhosting, their support is great. Our main WordPress site is driven by a customized [ThemePress](http://www.themepress.com/) theme. We throw our website behind [CloudFlare](http://cloudflare.com).
 
 We use [Google Apps](http://www.google.com/enterprise/apps/business/) for email. For sending transactional email from our forum, we use [fastmail.fm](http://fastmail.fm)'s SMTP server, but are considering migrating to [SendGrid](http://www.sendgrid.com). [Boomerang for Gmail](http://www.boomeranggmail.com/) is AWESOME. I can't recommend it enough. We use it when we send an important email that needs a reply, to notify us if no reply has been sent. We would pay double for it. We do not have a mailing list, but should. We will probably use [MailChimp](http://www.mailchimp.com).
 
