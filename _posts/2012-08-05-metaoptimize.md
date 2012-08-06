@@ -47,7 +47,7 @@ We use Google apps for email. For sending transactional email from our forum, we
 
 We use [RightSignature](http://rightsignature.com) for executing contracts. The interface is very simple, and the signatures the great. If clients are puzzled and ask for the contract the old-fashioned way, we use UnityFax. The service gives us with our own SF-area fax number, and we send and receive faxes through email. It's so damn cheap ($1.99/mo) and works fine. You've probably never heard of them, because they suck at branding and SEO.
 
-For our phone, we use [GrassHopper](http://grasshopper.com). Our number is 855-ALL-DATA. Because we don't just work on big data, sometimes our clients have small data. We care about all data. We only discriminate between data when maximizing [separating hyperplanes](http://en.wikipedia.org/wiki/Discriminative_model).
+For our phone, we use [GrassHopper](http://grasshopper.com). Our number is 855-ALL-DATA. Because we don't just work on big data, sometimes our clients have small data. We care about all data. We only discriminate between data when [modeling conditional distribution](http://en.wikipedia.org/wiki/Discriminative_model).
 
 We use Google Docs a lot for sharing and collaboration, and evolving documentation that clients might want to edit.
 
