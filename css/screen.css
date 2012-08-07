@@ -47,6 +47,7 @@ a:hover {
 }
 
 .nav ul {
+  float: left;
   list-style: none;
   margin-left: 1%;
   padding: 20px 0px;
@@ -161,4 +162,9 @@ a:hover {
 
 .featured-interview .posted-date {
   margin: 8px 0px;
+}
+
+ul.icons {
+  float: right;
+  padding: 13px 0px 0px 0px;
 }
