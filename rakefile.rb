@@ -1,10 +1,11 @@
 desc 'Generate tags page'
 task :tags do
-  puts "Generating tags..."
+  puts "Generating tag pages..."
   require 'rubygems'
   require 'jekyll'
+  require 'fileutils'
   include Jekyll::Filters
-  
+  FileUtils.rm_rf("tags/.", secure: true)
   options = Jekyll.configuration({})
   site = Jekyll::Site.new(options)
   site.read_posts('')
