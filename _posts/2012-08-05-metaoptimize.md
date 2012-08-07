@@ -7,7 +7,7 @@ tags: data-science consulting
 
 ##Who are you, and what do you do?
 
-I am Joseph Turian, the founder of the [MetaOptimize](http://metaoptimize.com/). We consult on machine learning, natural language processing, and data science. We provide implementation of solutions, advice and coaching for in-house tech teams. We help organizations turn data into higher-level information.
+I am [Joseph Turian](http://joseph.turian.com), the founder of the [MetaOptimize](http://metaoptimize.com/). We consult on machine learning, natural language processing, and data science. We provide implementation of solutions, advice and coaching for in-house tech teams. We help organizations turn data into higher-level information.
 
 We also have the largest ML and NLP [forum](http://metaoptimize.com/qa/) on the web.
 
@@ -50,7 +50,7 @@ We use [Google Apps](http://www.google.com/enterprise/apps/business/) for email.
 
 We use [RightSignature](http://rightsignature.com) for executing contracts. The interface is very simple, and the signatures are great. If clients are puzzled and ask for the contract the old-fashioned way, we use [UnityFax](http://www.unityfax.com/). The service gives us our own SF-area fax number, and we send and receive faxes through email. It is so damn cheap ($1.99/mo) and works fine. You have probably never heard of them, because they suck at branding and SEO.
 
-For our phone, we use [GrassHopper](http://grasshopper.com). Our number is 855-ALL-DATA. Because we don't just work on big data, sometimes our clients have small data. We care about all data. We only discriminate between data when [modeling conditional distribution](http://en.wikipedia.org/wiki/Discriminative_model).
+For our phone, we use [GrassHopper](http://grasshopper.com). Our number is 855-ALL-DATA. Because we don't just work on big data, sometimes our clients have small data. We care about all data. We only discriminate between data when [modeling conditional distributions](http://en.wikipedia.org/wiki/Discriminative_model).
 
 We use Google Docs a lot for sharing and collaboration, and evolving documentation that clients might want to edit.
 
