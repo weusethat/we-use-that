@@ -52,15 +52,9 @@ We use [RightSignature](http://rightsignature.com) for executing contracts. The 
 
 For our phone, we use [GrassHopper](http://grasshopper.com). Our number is 855-ALL-DATA. Because we don't just work on big data, sometimes our clients have small data. We care about all data. We only discriminate between data when [modeling conditional distributions](http://en.wikipedia.org/wiki/Discriminative_model).
 
-We use Google Docs a lot for sharing and collaboration, and evolving documentation that clients might want to edit.
+We use Google Docs a lot for sharing and collaboration, and evolving documentation that clients might want to edit. We bill for projects, not time, so we don't track billable hours. We use [Indinero](http://indinero.com) to trap all financial activity, which makes it easier to determine deductibles during tax season. For IM, we use gchat, but are migrating to [Pidgin](http://www.pidgin.im/) with the OTR plugin.
 
-We bill for projects, not time, so we don't track billable hours.
-
-We use [Indinero](http://indinero.com) to trap all financial activity, which makes it easier to determine deductibles during tax season.
-
-For IM, we use gchat, but are migrating to [Pidgin](http://www.pidgin.im/) with the OTR plugin.
-
-And I use [Pocket](http://getpocket.com/) for reading [entreporn](http://swombat.com/2012/7/11/entreporn-learning-doing-wasting) while I am on the subway.
+And even though it's not for work I like it so much I had to include it. I use [Pocket](http://getpocket.com/) for reading [entreporn](http://swombat.com/2012/7/11/entreporn-learning-doing-wasting) while I am on the subway.
 
 ##What business software do you most wish existed?
 
