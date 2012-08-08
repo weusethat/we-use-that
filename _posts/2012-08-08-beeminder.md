@@ -5,6 +5,7 @@ subtitle: Put your money where your mouth is. Get things done.
 tags: saas quantified-self
 ---
 
+
 ## Who are you, and what do you do?
 
 We are [Daniel Reeves](http://dreev.es ) and [Bethany Soule](http://bethaknee.com ), co-founders of [Beeminder](http://beeminder.com ).
@@ -16,7 +17,7 @@ We're over 5,000 users now, with 11% paying, making us just barely ramen profita
 
 ## What is your technology stack?
 
-It's [turtles all the way down, brah](http://en.wikipedia.org/wiki/File:River_terrapin.jpg ). We can say that because half of our turtles wear bras.  
+It's [turtles all the way down, brah](http://en.wikipedia.org/wiki/File:River_terrapin.jpg ). We can say that because half of our turtles wear bras.
 Apparently Bethany is slap-happy. We won't say that in the actual post.
 
 The stack is Ubuntu / Nginx / Passenger / Mongo / Rails on a [Linode](http://linode.com ) instance.
@@ -60,7 +61,7 @@ Our solution to CRM and talking to the customers is thin.
 We mostly just use Gmail.
 [Streak](http://www.streak.com/ ) helps out a bit -- we especially like their email snippets. 
 We have a lot of semi-automated life-cycle and even event-driven emails where we still use a human to review and hit send.
-We do have custom email snoozing, based on [an idea from Lifehacker](http://lifehacker.com/5825634/how-to-add-a-snooze-button-to-gmail ), implemented using [Google Apps Script](https://developers.google.com/apps-script/ ).
+We also have custom email snoozing, based on [an idea from Lifehacker](http://lifehacker.com/5825634/how-to-add-a-snooze-button-to-gmail ), implemented using [Google Apps Script](https://developers.google.com/apps-script/ ).
 If you don't want to go down that rabbit hole, we also recommend [Followup.cc](http://followup.cc ).
 Some of our support takes place on [our user feedback forum](http://uservoice.beeminder.com ), which is thanks to [UserVoice](http://uservoice.com ).
 
@@ -69,7 +70,7 @@ Rapportive has a wonderful API for making custom widgets.
 It was very easy to make a custom Rapportive widget so that when a customer emails us we see a summary in the sidebar about all their beeminding (and whether they actually pay us).
 
 Finally, one of the most important things we use to run our business is this [amazing app called Beeminder](http:/beeminder.com ). 
-We track our hours spent on task, our blog posts, and it keeps us hard committed (to the tune of $1000) to making [user-visible improvements](https://www.beeminder.com/meta/uvi ) to the product every single day.
+We track our hours spent on task, [our blog posts](http://beeminder.com/meta/blog ), and it keeps us [hard committed (to the tune of $1000)](http://blog.beeminder.com/blogdog ) to making [user-visible improvements](https://www.beeminder.com/meta/uvi ) to the product every single day.
 It's no joke that Beeminder wouldn't exist right now if it weren't for our meta Beeminder goals forcing us to stick it out during the dips in the rollercoaster ride that is startupland.
 
 
@@ -81,3 +82,4 @@ It looks like [Docracy](http://www.docracy.com ) is halfway there.
 Now we need an API on top of this to automate the lawyers away altogether.
 
 Also could someone fix email please? The problem is that people keep sending it to us.
+
