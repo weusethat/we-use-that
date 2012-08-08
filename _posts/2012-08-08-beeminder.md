@@ -77,7 +77,7 @@ It's no joke that Beeminder wouldn't exist right now if it weren't for our meta 
 ## What business software do you most wish existed?
 
 We loved [Punchfork](http://weusethat.com/punchfork/ )'s answer to this.
-Payments : Stripe :: Legal Crap : [please somebody make this!].
+Payments : Stripe :: Legal Crap : \[please somebody make this!\].
 It looks like [Docracy](http://www.docracy.com ) is halfway there.
 Now we need an API on top of this to automate the lawyers away altogether.
 
