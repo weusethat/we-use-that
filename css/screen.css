@@ -135,6 +135,7 @@ a:hover {
 
 .tags { 
   float: left;
+  clear: left;
 }
 
 .tag {
