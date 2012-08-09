@@ -20,10 +20,6 @@ The file name format is `YYYY-MM-DD-name`, where `name` is replaced with the sta
 #### Add an image. 
 Images should be 420x315px, .png format, and go in `/images/featured` with the same `name` as above.
 
-#### Update tag pages
-
-Run `rake tags` to update the tag pages with your post.
-
 ### Credits
 
 Powered by [Jekyll](https://github.com/mojombo/jekyll/). Inspired by [The Setup](http://usesthis.com).
