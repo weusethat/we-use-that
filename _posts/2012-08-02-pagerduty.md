@@ -1,7 +1,7 @@
 ---
 layout: interview
 title: PagerDuty
-subtitle: SaaS on-call scheduling, alerting and incident management solutions which integrates with any monitoring solution to send alerts via SMS, phone or email to IT organizations when systems break.
+subtitle: SaaS on-call scheduling, alerting and incident management solutions. Integrates with any monitoring solution to send alerts via SMS, phone or email to IT organizations when systems break.
 
 tags: yc saas alerting
 ---
