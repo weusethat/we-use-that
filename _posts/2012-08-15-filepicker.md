@@ -7,7 +7,7 @@ tags: yc sdk cloud files
 
 ## Who are you, and what do you do?
 
-I am [Brett Van Zuiden](https://twitter.com/brettcvz), CEO and one of the founders at [Filepicker.io](https://www.filepicker.io/). We help developers on web and mobile connect to all the different sources of content out there. Everything from a user's webcam to their Dropbox, their Facebook photos etcetera. We make it really to pull that content into your application.
+I am [Brett Van Zuiden](https://twitter.com/brettcvz), CEO and one of the founders at [Filepicker.io](https://www.filepicker.io/). We help developers on web and mobile connect to all the different sources of content out there. Everything from a user's webcam to their Dropbox, Facebook photos etcetera. We make it really to pull that content into your application.
 
 We launched back in April and have been growing fast. Sunglass.io uses us for 3D modeling, Fetchnotes uses us for note taking and attachments. There is a wide range of applications on iOS, Android and the web that use Filpicker.io.
 
